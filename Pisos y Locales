@@ -1,0 +1,622 @@
+#include<iostream>
+#include<stdlib.h>
+#include<conio.h>
+
+using namespace std;
+
+main(){
+	setlocale(LC_CTYPE,"Spanish");
+	int piso,local,n1,n2;
+	string s;
+	s="si";
+	
+	while(s=="si"){
+	cout<<"ingrese el numero de piso a suspender la corriente electrica: "; 
+	cin>> piso;
+	system("cls");
+	 switch(piso){
+	 case 1: cout<< "Bienvenid@ al piso numero uno\n"; 
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno de operaciones\n";
+					cout<<"Ingrese el primero numero:\n "; cin>>n1;
+					cout<<"Ingrese el segundo numero\n: "; cin>>n2;
+					
+					cout<<"El resultado de la suma es:\n "<<n1+n2;
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+		
+	break;
+	 
+	 case 2: cout<< "Bienvenid@ al piso numero dos\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 3: cout<< "Bienvenid@ al piso numero tres\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 4: cout<< "Bienvenid@ al piso numero cuatro\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 5: cout<< "Bienvenid@ al piso numero cinco\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 6: cout<< "Bienvenid@ al piso numero seis\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				
+					 case 7: cout<< "Bienvenid@ al piso numero siete\n"; 
+		     break;
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 8: cout<< "Bienvenid@ al piso numero ocho\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 9: cout<< "Bienvenid@ al piso numero nueve\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+				break;
+					 case 10: cout<< "Bienvenid@ al piso numero diez\n"; 
+		     
+		    cout<< "Ingrese el numero del local al suspender la corriente electrica:\n "; 
+		    cin>>local; 
+		    	switch (local){
+		    	case 1: cout<< "Bienvenid@ al local uno\n";
+		    	cout<< "Energia suspendida\n"; 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 2: cout<< "Bienvenid@ al local dos\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 3: cout<< "Bienvenid@ al local tres\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+		    	case 4: cout<< "Bienveid@ al local cuatro\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 5: cout<< "Bienvenid@ al local cinco\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 6: cout<< "Bienvenid@ al local seis\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 7: cout<< "Bienvenid@ al local siete\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 8: cout<< "Bienvenid@ al local ocho\n";
+		    	
+		    	cout<< "Energia suspendida\n"; 
+		    	
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 9: cout<< "Bienvenid@ al local nueve\n";
+		    	
+		    	cout<< "Energia suspendida\n";
+		    	 
+		    	cout<< "Para activarla reinicie\n";
+		    	break;
+				case 10: cout<< "Bienvenid@ al local diez\n"; }
+		break;
+		
+		default:
+		cout<<"No hay nigun piso en el numero que ingreso";
+
+		}
+		
+		cout<<endl<<endl;
+		system("pause");
+		system("cls");
+	cout<<"Si desea desactivar la energia de otro piso digete si, sino digite cualquier otra letra: "; cin>>s;
+	}
+}
